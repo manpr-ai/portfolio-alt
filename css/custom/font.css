@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.montserrat-alternates-light {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-alternates-semibold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.montserrat-alternates-thin-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.montserrat-alternates-light-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.montserrat-alternates-extrabold-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* CUSTOM  H1 */
+
+.custom__h1 {
+  font-size: clamp(40px, 5vw, 90px);
+  color: var(--font-color-2);
+}
+
+/* CUSTOM  H2 */
+.custom__h2_menu {
+  font-size: clamp(30px, 5vw, 45px);
+  color: var(--font-color-2);
+}
+
+.custom__h2_1 {
+  font-size: clamp(34px, 2vw, 48px);
+  color: var(--font-color-2);
+}
+
+.custom__h2_2 {
+  font-size: clamp(34px, 2vw, 48px);
+  color: var(--font-color-1);
+}
+
+/* CUSTOM projet */
+.custom__titre_projet {
+  font-size: clamp(30px, 2vw, 34px);
+  color: var(--font-color-2);
+}
+
+/* PARAGRAPHE */
+.font-size-p {
+  color: var(--font-color-1);
+  font-size: clamp(14px, 4vw, 16px);
+}
+
+.font-size-p1 {
+  color: var(--font-color-1);
+  font-size: clamp(16px, 4vw, 20px);
+}
+
+.font-size-p2 {
+  color: var(--font-color-2);
+  font-size: clamp(14px, 2vw, 16px);
+}
+
+.font-size-p3 {
+  color: var(--font-color-2);
+  font-size: clamp(16px, 4vw, 20px);
+}
+
+.font-family-1 {
+  font-family: "Titan One", sans-serif;
+}
+.font-family-2 {
+  font-family: "Pacifico", cursive;
+}
+/* BTN */
+.font-size-btn-1 {
+  font-size: clamp(20px, 3vw, 26px);
+}
+
+/* text position */
+.text-align-center {
+  text-align: center;
+}
+.text-align-justify {
+  text-align: justify;
+}
+
+/* DROP SHADOX */
+.drop__shadow-1 {
+  filter: drop-shadow(3px 3px 3px var(--drop-shadow-1));
+}
+.drop__shadow-2 {
+  filter: drop-shadow(1px 1px 1px var(--drop-shadow-2));
+}

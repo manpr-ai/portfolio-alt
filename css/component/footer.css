@@ -1,0 +1,32 @@
+/* SECTION FOOTER */
+
+.footer {
+  padding: 5px 24px;
+  margin: auto 0 7px 0;
+
+  & .container__footer {
+    width: 1612px;
+  }
+
+  &   /* container icon */
+    .container__icon {
+    width: 150px;
+  }
+
+  & .container__copyright {
+    font-family: var(--font-2);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & .container__copyright {
+    margin: 20px;
+  }
+}

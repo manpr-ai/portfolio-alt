@@ -1,0 +1,51 @@
+@import url("custom/font.css");
+@import url("custom/spacing.css");
+@import url("custom/layout.css");
+@import url("component/header.css");
+@import url("component/footer.css");
+@import url("component/boutons.css");
+
+@import url("media/images.css");
+
+:root {
+  --color-background-main: #131313;
+  --color-background-box-bento-1: #bffc4f;
+  --color-background-box-bento-2: #ffffff;
+  --color-background-box-bento-3: #fdf2fa;
+  --color-background-box-bento-4: #f7c5e6;
+  --color-background-box-bento-5: #f5b3df;
+  --color-background-box-bento-6: #d777ae;
+  --color-background-box-bento-7: #dfffa4;
+
+  --color-btn-1-background: #bffc4f;
+  --color-btn-1-border: #ed73c4;
+
+  --color-btn-2-background: #fdf2fa;
+  --color-btn-2-border: #ed73c4;
+  --color-btn-2-background-hover: #fdf2fa;
+  --color-btn-2-border-hover: #f7c5e6;
+
+  --color-svg-defaut: #ed73c4;
+  --color-svg-hover: #f7c5e6;
+
+  --color-border-1: #ed73c4;
+  --color-border-2: #f5b3df;
+  --color-border-3: #dfffa4;
+  --color-border-4: #bffc4f;
+  --color-border-5: #fdf2fa;
+
+  --border-box: 15px solid;
+  --border-btn: 3px solid;
+
+  --font-1: "Montserrat Alternates", sans-serif;
+  --font-2: "Pacifico", cursive;
+  --font-family: "Titan One", sans-serif;
+
+  --font-color-1: #000000;
+  --font-color-2: #ffffff;
+  --font-color-3: #ed73c4;
+
+  --drop-shadow-1: #000000;
+  --drop-shadow-2: #787878;
+  --drop-shadow-3: #ffffff;
+}

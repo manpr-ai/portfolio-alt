@@ -1,0 +1,24 @@
+/* IMAGE bento  */
+.img__box {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.border__radius_image {
+  border-radius: 15px;
+}
+/* IMAGE PAGE ERROR */
+.img__404 {
+  width: clamp(300px, 80%, 580px);
+}
+
+/* Mettre les images couleurs en noir et blanc */
+.img__grayscale {
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%); /* Firefox */
+}
+
+.hover__opacity:hover {
+  opacity: 0.8;
+}
