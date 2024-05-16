@@ -1,0 +1,27 @@
+/**************** PAGE ERROR  ******************/
+/******************************************************/
+/******************************************************/
+
+/* 404 ERROR */
+
+.container__main__error {
+  max-width: 600px;
+  margin: 0px auto 0px auto;
+
+  & .container__404 {
+    width: clamp(320px, 90%, 1000px);
+    height: auto;
+    background-color: var(--color-background-box-bento-4);
+    border: 8px solid var(--color-border-1);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container__main__error {
+    max-width: 600px;
+    margin: 30px auto 0px auto;
+  }
+  .container__404 {
+    width: 320px;
+  }
+}

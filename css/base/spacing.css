@@ -74,6 +74,9 @@
 .padding__16 {
   padding: 16px;
 }
+.padding__10_20 {
+  padding: 10px 20px;
+}
 
 /* TOP */
 .padding__top5 {

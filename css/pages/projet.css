@@ -1,0 +1,93 @@
+/**************** PAGE PROJET  ******************/
+/******************************************************/
+/******************************************************/
+
+/* container général pour les projets */
+.congtainer__projets__parent {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.projets {
+  padding: 20px;
+  width: 450px;
+}
+
+/* titre de projet */
+.projet {
+  cursor: pointer;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+/* placement de l'arrow avant titre projet */
+.arrow {
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+}
+
+/* Déplace le titre lors du hover + animation */
+.custom__titre_projet.title-hovered {
+  margin-left: 20px;
+  color: var(--color-border-1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* container contenant l'image de chaque projet */
+.card__projet {
+  margin-top: 95px;
+  width: clamp(300px, 100%, 600px);
+  text-align: justify;
+  background-color: var(--color-background-box-bento-3);
+  border: 8px solid var(--color-border-1);
+}
+
+/* gère l'affichage des détails du projets (img) */
+#projet__details {
+  flex: 1;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+#projet__details.visible {
+  display: flex;
+  opacity: 1;
+}
+
+/* MEDIA QUERIE TABLETTE PAGE PROJET */
+@media only screen and (min-width: 761px) and (max-width: 1050px) {
+  .congtainer__projets__parent {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 30px auto;
+    justify-content: center;
+  }
+
+  .card__projet {
+    margin-top: 0px;
+    width: clamp(300px, 100%, 600px);
+    text-align: justify;
+    background-color: var(--color-background-box-bento-3);
+    border: 8px solid var(--color-border-1);
+  }
+}
+
+/* MEDIA QUERIE mobile PAGE PROJET */
+@media only screen and (max-width: 760px) {
+  .congtainer__projets__parent {
+    max-width: 600px;
+    display: flex;
+    margin: auto auto 50px auto;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .projets {
+    width: 320px;
+  }
+}

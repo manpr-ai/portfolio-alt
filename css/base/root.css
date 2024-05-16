@@ -1,12 +1,3 @@
-@import url("custom/font.css");
-@import url("custom/spacing.css");
-@import url("custom/layout.css");
-@import url("component/header.css");
-@import url("component/footer.css");
-@import url("component/boutons.css");
-
-@import url("media/images.css");
-
 :root {
   --color-background-main: #131313;
   --color-background-box-bento-1: #bffc4f;
